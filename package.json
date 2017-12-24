@@ -1,0 +1,28 @@
+{
+  "name": "crypto-benchmarks",
+  "version": "0.0.0-development",
+  "description": "Benchmarks for various crypto packages",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardschneider/crypto-benchmarks.git"
+  },
+  "author": {
+    "name": "Richard Schneider",
+    "email": "makaretu@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardschneider/crypto-benchmarks/issues"
+  },
+  "homepage": "https://github.com/richardschneider/crypto-benchmarks#readme",
+  "dependencies": {
+    "benchmarked": "^2.0.0",
+    "jsrsasign": "^8.0.4",
+    "node-forge": "^0.7.1",
+    "pbkdf2": "^3.0.14"
+  }
+}

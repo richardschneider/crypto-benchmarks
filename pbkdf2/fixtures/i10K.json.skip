@@ -1,0 +1,8 @@
+{
+  "password": "my secret passphrase for testing", 
+  "salt": "di1J4s7MI0StrzVZuYC/2u3U", 
+  "iterations": 10000,
+  "keySize": 64, 
+  "hash": "sha2-512",
+  "expected": "LL+dAUbIXJLzfL6AEDm9qBVRO8iVTRmBJMQn7VQDUmSC0Y++I4SaHz8PIdqmMUea6gjYuSuE0k5PQCGoDValXg=="
+}
