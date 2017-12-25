@@ -6,9 +6,8 @@ const Suite = require('benchmarked')
 const path = require('path')
 const fs = require('fs')
 
-const tests = fs.readdirSync(path.join(__dirname, 'test'))
-console.log (tests)
-
+let tests = fs.readdirSync(path.join(__dirname, 'test'))
+// tests = ['rsa-keygen']
 tests.forEach(t => {
   const suite = new Suite({
     cwd: path.join(__dirname, 'test', t),
