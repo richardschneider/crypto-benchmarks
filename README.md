@@ -1,4 +1,6 @@
 # crypto-benchmarks
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/richardschneider/crypto-benchmarks.svg)](https://greenkeeper.io/)
 Benchmarks for various crypto packages
 
 ## Getting started
